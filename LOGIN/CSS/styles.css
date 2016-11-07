@@ -23,14 +23,11 @@ body{
 	display: inline-block;
 }
 
-.login .circle article{
-	width: 45px;
-	height: 45px;
-}
 
 .login2{
 	display: block;
 }
+
 .login2>input{
 	width: 100%;
 	padding:15px;
