@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orangered;
+    font-family: sans-serif;
+    font-family: 100%;
+}
+
+.contenedor {
+    width: 1120px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: darkgoldenrod;
+}
+
+header {
+    background-color: chocolate;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+header nav {
+    background-color: darksalmon
+}
+
+header nav ul {
+    margin-left: 200px;
+    background-color: aquamarine
+}
+
+ul li {
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin-bottom: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+.separador {}
+
+main h2,.galery h2 {
+    text-align: center;
+    color: blueviolet;
+    padding: 20px 0;
+}
+
+.profile-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-img+figcaption{
+  text-align: center;
+  padding: 10px 0;
+}
+.profile p{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px 30%;
+  line-height: 20px;
+
+}
+
+.galery{
+  background-color: yellow;
+}
+
+article h3 {
+    text-align: center;
+    color: darkorchid;
+    padding: 15px 0;
+}
+
+.galery-images{
+  overflow: auto;
+  text-align: center;
+  display: inline-block;
+}
+
+.galery-images li{
+  border: solid white 1px;
+  float: left;
+  margin-left: 11px;
+  display: inline-block;
+}
+
+
+
+.galery a{
+  border: solid red 1px;
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer {
+  border: solid blue 1px;
+
+}
+
+aside{
+  text-align: center;
+}
+aside ul{
+  padding: 15px;
+  overflow: auto;
+  display: inline-block;
+}
+
+aside ul li{
+  float: left;
+
+}
+
+aside ul li:last-child{
+  margin-left: 15px;
+}
