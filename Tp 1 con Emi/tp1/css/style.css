@@ -4,6 +4,10 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(242, 131, 0);
+
 }
 
 body {
@@ -16,45 +20,58 @@ body {
     width: 1120px;
     margin: 0 auto;
     padding: 0 10px;
-    background-color: darkgoldenrod;
+}
+
+.separador img{
+  width: 100%;
 }
 
 header {
-    background-color: chocolate;
+    background-color: rgb(33, 0, 115);
+    display: block;
 }
 
 h1 {
-    color: blueviolet;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 4em;
+    font-family: sans-serif;
 }
 
 header nav {
-    background-color: darksalmon
 }
 
 header nav ul {
-    margin-left: 200px;
-    background-color: aquamarine
+    text-align: center;
+    padding: 10px 0;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 0 100px;
 }
 
 ul li {
     list-style-type: none;
 }
 
-header nav ul li {
-    margin-bottom: 15px;
-}
-
 header nav ul li a {
     text-decoration: none;
-    color: red;
+    font-size: 1.7em;
+    font-weight: bold;
 }
 
-.separador {}
+main{
+  background-color: rgb(51, 15, 87);
+}
 
-main h2,.galery h2 {
+main h2,
+.galery h2 {
     text-align: center;
-    color: blueviolet;
+    color: rgb(106, 233, 62);
     padding: 20px 0;
+    font-size: 2em;
 }
 
 .profile-img{
@@ -78,13 +95,14 @@ main h2,.galery h2 {
 }
 
 .galery{
-  background-color: yellow;
+  background: rgb(90, 32, 156)
 }
 
 article h3 {
     text-align: center;
-    color: darkorchid;
+    color: rgb(106, 233, 62);
     padding: 15px 0;
+    font-size: 1.3em;
 }
 
 .galery-images{
@@ -103,31 +121,63 @@ article h3 {
 
 
 .galery a{
-  border: solid red 1px;
   display: block;
   text-align: center;
   padding: 20px 0;
 }
 
 footer {
-  border: solid blue 1px;
-
+  background: rgb(8, 21, 75);
 }
 
-aside{
-  text-align: center;
-}
 aside ul{
-  padding: 15px;
-  overflow: auto;
-  display: inline-block;
+  text-align: center;
+  display: block;
+  padding: 10px 0;
 }
 
 aside ul li{
-  float: left;
-
+  display: inline;
 }
 
-aside ul li:last-child{
-  margin-left: 15px;
+aside ul li h1{
+  padding: 5px 15px;
+  display: inline-block;
+  border-radius: 100px;
+  background: rgb(0, 255, 25);
+  }
+
+aside ul li h1:hover{
+
+}
+aside ul li ::before:hover{
+  color: yellow;
+  background: rgb(8, 21, 75);
+}
+
+
+
+aside ul li .fbk::before{
+  content: "\f231";
+  font-family: "Ionicons";
+  font-size: 30px;
+  color: rgb(8, 21, 75);
+}
+
+
+aside ul li .twt::before{
+  content: "\f243";
+  font-family: "Ionicons";
+  font-size: 30px;
+  color: rgb(8, 21, 75);
+}
+
+
+footer p{
+  text-align: center;
+  padding: 15px;
+}
+
+.boton{
+
 }
